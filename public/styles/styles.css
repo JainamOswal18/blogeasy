@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    /* height: 100vh;  check krna iska badmai*/
+}
+
+#logoDiv {
+    background-color: black;
+    width: fit-content;
+    border-radius: 50%;
+    height: 70px;
+    margin-left: 5%;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.titleDiv {
+    width: auto;
+    margin-top: 3px;
+    margin-left: 30% ;
+}
+
+.navTitle {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbarLogo {
+    height: 60px;
+    margin-top: 3px;
+}
+
+.navbar .navbar-nav {
+    margin-right: 5%;
+}
+
+.mainHeading{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff !important;
+}
+
+input, textarea {
+    text-align: center;
+}
+
+.form123 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+ul {
+    list-style: none;
+}
+
+#page2 {
+    height: 100vh;
+}
+#page3 {
+    height: 70vh;
+}
+
+.accordion-button, .accordion-body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.footer * {
+    color: white;
+}
+
+.fa-leetcode {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png') no-repeat center;
+    background-size: contain;
+}
+
+@media (max-width: 768px) {
+    .navTitle {
+        font-size: 30px;
+        text-align: center;
+    }
+    .navbarLogo {
+        height: 40px;
+    }
+    #logoDiv {
+        height: 50px;
+    }
+}
+@media (max-width: 576px) {
+    .navTitle {
+        font-size: 24px;
+    }
+
+    .navbarLogo {
+        height: 40px;
+    }
+
+    #logoDiv {
+        height: 50px;
+    }
+}
